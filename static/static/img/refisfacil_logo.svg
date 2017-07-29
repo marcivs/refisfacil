@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="77 147 720 189" width="60pc" height="189pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.3.1 
+    <dc:date>2017-05-26 04:26:04 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Arial" font-size="150" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Arial-BoldMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Arial" font-size="100" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Arial-BoldMT"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 2</title>
+    <rect fill="white" width="1312" height="816"/>
+    <g>
+      <title>Layer 1</title>
+      <rect x="80" y="150" width="357" height="183" fill="black"/>
+      <rect x="80" y="150" width="357" height="183" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <rect x="80" y="150" width="714" height="182" stroke="black" stroke-linecap="round" stroke-linejoin="miter" stroke-width="5"/>
+      <text transform="translate(95 155.04639)" fill="#ff2600">
+        <tspan font-family="Arial" font-size="150" font-weight="bold" fill="#ff2600" x=".34960938" y="136" textLength="108.3252">R</tspan>
+        <tspan font-family="Arial" font-size="100" font-weight="bold" fill="white" x="108.6748" y="136" textLength="222.26562">EFIS</tspan>
+        <tspan font-family="Arial" font-size="100" font-weight="bold" fill="black" x="330.94043" y="136" textLength="27.783203"> </tspan>
+        <tspan font-family="Arial" font-size="150" font-weight="bold" fill="black" x="358.72363" y="136" textLength="91.62598">F</tspan>
+        <tspan font-family="Arial" font-size="100" font-weight="bold" fill="black" x="450.3496" y="136" textLength="233.30078">ÁCIL</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
