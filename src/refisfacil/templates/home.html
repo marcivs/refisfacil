@@ -1,4 +1,87 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 
-<h1>Hello World!!!</h1>
+{% block head_title %}{{ title }}{% endblock head_title %}
+
+{% block head %}
+    <!-- Carousel -->
+    <link type="text/css" href="{% static 'css/carousel.css' %}" rel="stylesheet" >
+{% endblock head %}
+
+{% block carousel %}
+{% include "carousel.html" %}
+{% endblock carousel %}
+
+{% block content %}
+<!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="{% static 'img/tutorial.svg' %}" alt="Tutorial" width="140" height="140">
+          <h2>Tutorial</h2>
+          <p>Criamos um passo-a-passo completo para lhe orientar por todo o processo.</p>
+          <p><a class="btn btn-default" href="#" role="button">Saiba mais &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="{% static 'img/planos.svg' %}" alt="Generic placeholder image" width="140" height="140">
+          <h2>Planos</h2>
+          <p>Escolha o plano que mais se adapta as suas necessidades.</p>
+          <p><a class="btn btn-default" href="#" role="button">Saiba mais &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="{% static 'img/contato.svg' %}" alt="Generic placeholder image" width="140" height="140">
+          <h2>Contato</h2>
+          <p>Ficou com alguma dúvida?</p>
+          <p>Visite nossa seção de Perguntas Frenquentes (FAQ) ou envie uma mensagem.</p>
+          <p><a class="btn btn-default" href="#" role="button">Saiba mais &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+<!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Fazemos todos os cálculos.</h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="{% static 'img/calculos.svg' %}" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Qual modalidade de parcelamento é melhor para voce?</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="{% static 'img/tabelas.svg' %}" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Relatório completos para todas as etapas.</h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="{% static 'img/relatorios.svg' %}" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+{% endblock content %}

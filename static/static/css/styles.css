@@ -1,6 +1,30 @@
-#logo {
-  max-height: 42px;
-  margin-right: 10px;
-  margin-top: -3px;
-  display: inline-block;
+/* Configuração do Botão de usuário da navbar */
+
+.navbar-login {
+  width: 305px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.navbar-login-session {
+  padding: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.navbar-footer {
+  background-color: #DDD;
+}
+
+.navbar-footer-content {
+  padding: 15px 15px 15px 15px;
+}
+
+.dropdown-menu {
+  padding: 0px;
+  overflow: hidden;
+}
+
+.icon-size {
+  font-size: 87px;
 }
